@@ -51,7 +51,7 @@ def Pullloop():
 
 def Postloop(O1, O2, O3, O4, O5, O6, O7, O8, O9, O10, O11, O12, O13, O14, O15, O16):
     suburl = "/_pxc_api/api/variables/"
-    URL = "https://192.168.1.10" + suburl
+    URL = "https://localhost" + suburl
     header = {
         "Content-Type": "application/json;charset=UTF-8"
     }
